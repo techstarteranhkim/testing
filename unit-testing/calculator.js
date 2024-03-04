@@ -7,6 +7,7 @@ function divide(a, b) {
   return a / b;
 }
 
-// Im Browser: export default sum
+// Im Browser/in Javascript: export default ...
+// Wir sind hier aber in NodeJS!
 module.exports.sum = sum;
 module.exports.divide = divide;

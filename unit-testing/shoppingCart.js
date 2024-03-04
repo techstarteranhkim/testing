@@ -7,8 +7,6 @@ function addCartItem(name, value) {
   });
 }
 
-// function deleteCartItem() {}
-
 function getTotalValue() {
   let result = 0;
   for (item in cart) {

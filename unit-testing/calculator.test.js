@@ -21,7 +21,7 @@ test("Der Quotient aus 10 durch 2 ist 5", () => {
 test("Der Quotient aus 10 durch 3 ist nahe an 3,33", () => {
   const result = calculator.divide(10, 3);
 
-  expect(result).toBeCloseTo(3.33333333, 2);
+  expect(result).toBeCloseTo(3.33, 2);
 });
 
 test("Postive durch negative Zahl ist kleiner als 0", () => {
